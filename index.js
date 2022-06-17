@@ -46,6 +46,7 @@ function onUpdateIsDone(task) {
     const currentValue = task.isDone;
     task.isDone = !currentValue;
 
+    
     return task;
 }
 
